@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body class="relative h-screen">
+    <header class="flex justify-end p-spacing6">
+      <nav class="flex">
+        <ul class="flex space-x-15 items-center">
+          <li>
+            <a
+              href="https://mail.google.com/mail/&ogbl"
+              class="text-gray-900 hover:underline text-opacity-87"
+              >Gmail</a
+            >
+          </li>
+          <li>
+            <a
+              href="/https://www.google.rw/imghp?hl=en&ogbl"
+              class="text-gray-900 hover:underline text-opacity-87"
+              >Images</a
+            >
+          </li>
+          <li class="flex items-center">
+            <div class="p-1 flex">
+              <a
+                href="/#"
+                class="p-2 hover:rounded-full hover:bg-gray-300 w-10 h-10 flex-1"
+                ><img
+                  src="/svgs/menu-icon.svg"
+                  alt="menu-icon"
+                  class="w-6 h-6 w"
+              /></a>
+            </div>
+            <a
+              class="m-2 py-9 px-23 border border-transparent text-gray-800 bg-brandblue-light hover:bg-brandblue-dark rounded text-sm"
+              href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"
+              >Sign in</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="min-h-screen80vh flex items-center flex-col">
+      <img
+        src="./images/googlelogo_color_272x92dp.png"
+        alt="google icon"
+        class="object-cover object-center mt-16 lg:mt-10"
+      />
+      <div class="p-5">
+        <form class="pt-s pt-spacing6 space-y-5 flex items-center flex-col">
+          <div
+            class="border-gray-300 border rounded-4xl flex items-center space-x-6 py-4 px-6 bg-white"
+          >
+            <img
+              src="./svgs/search-icon.svg"
+              alt="search-icon"
+              class="w-6 h-6"
+            />
+
+            <label for="search-text" class="sr-only"></label>
+            <input
+              type="text"
+              id="search-text"
+              class="flex-1 block w-full px-3 py-1.5 text-sm font-normal text-black text-opacity-87 bg-transparent bg-clip-padding border-solid border-0 transition ease-in-out m-0 focus:bg-transparent focus:border-0 focus:outline-none"
+            />
+            <img
+              src="./svgs/micro-icon.svg"
+              alt="micro icon"
+              class="w-6 h-6 hover:cursor-pointer"
+            /><img
+              src="./svgs/google-camera.svg"
+              alt="google camera icon"
+              class="w-6 h-6 hover:cursor-pointer"
+            />
+          </div>
+          <div class="flex items-center space-x-5">
+            <button
+              class="bg-gray-200 p-4 rounded text-sm text-gray-900 border-gray-200 hover:border-gray-300 border"
+            >
+              Google Search
+            </button>
+            <button
+              class="bg-gray-200 p-4 rounded text-sm text-gray-900 border-gray-200 hover:border-gray-300 border"
+            >
+              Im'm feeling lucky
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="flex space-x-2 flex-1">
+        <p class="text-13 text-gray-900">Google offered in:</p>
+        <a
+          href="https://www.google.com/setprefs?sig=0_fozSUiMGwKB3QAPR0kGMAyMlVGg%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwiSkI2wiOf6AhWD0oUKHdLqAvAQ2ZgBCBA"
+          class="text-brandblue hover:underline text-13"
+          >Francais</a
+        >
+        <a
+          href="https://www.google.com/setprefs?sig=0_fozSUiMGwKB3QAPR0kGMAyMlVGg%3D&hl=sw&source=homepage&sa=X&ved=0ahUKEwiSkI2wiOf6AhWD0oUKHdLqAvAQ2ZgBCBE"
+          class="text-brandblue hover:underline text-13"
+          >Kiswahili</a
+        >
+        <a
+          href="https://www.google.com/setprefs?sig=0_fozSUiMGwKB3QAPR0kGMAyMlVGg%3D&hl=rw&source=homepage&sa=X&ved=0ahUKEwiSkI2wiOf6AhWD0oUKHdLqAvAQ2ZgBCBI"
+          class="text-brandblue hover:underline text-13"
+          >English</a
+        >
+      </div>
+    </main>
+
+    <footer class="bg-gray-200 absolute bottom-0 w-full">
+      <div
+        class="px px-8 py-4 border-b border-b-gray-300 text-base text-gray-500"
+      >
+        Rwanda
+      </div>
+      <div class="flex flex-wrap justify-evenly px-5 py-4">
+        <ul class="flex flex-wrap justify-evenly">
+          <li>
+            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+              >Aabout</a
+            >
+          </li>
+          <li>
+            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+              >Advertising</a
+            >
+          </li>
+          <li>
+            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+              >Business</a
+            >
+          </li>
+          <li>
+            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+              >How search works</a
+            >
+          </li>
+        </ul>
+        <ul class="flex flex-wrap justify-evenly">
+          <li>
+            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+              >Privacy</a
+            >
+          </li>
+          <li>
+            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+              >Terms</a
+            >
+          </li>
+          <li>
+            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+              >Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
