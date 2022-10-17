@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="./css/output.css" />
   </head>
-  <body class="relative h-screen">
+  <body class="min-h-screen flex flex-col">
     <header class="flex justify-end p-spacing6">
       <nav class="flex">
         <ul class="flex space-x-15 items-center">
@@ -51,7 +51,7 @@
         </ul>
       </nav>
     </header>
-    <main class="min-h-screen80vh flex items-center flex-col">
+    <main class="flex items-center flex-col flex-1">
       <img
         src="./images/googlelogo_color_272x92dp.png"
         alt="google icon"
@@ -118,13 +118,13 @@
       </div>
     </main>
 
-    <footer class="bg-gray-200 absolute bottom-0 w-full">
+    <footer class="bg-gray-200">
       <div
         class="px px-8 py-4 border-b border-b-gray-300 text-base text-gray-500"
       >
         Rwanda
       </div>
-      <div class="flex flex-wrap justify-evenly px-5 py-4">
+      <div class="flex flex-wrap justify-evenly lg:justify-between px-5 py-4">
         <ul class="flex flex-wrap justify-evenly">
           <li>
             <a href="" class="text-gray-500 hover:underline text-sm p-4"
