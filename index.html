@@ -13,10 +13,10 @@
     />
     <link rel="stylesheet" href="./css/output.css" />
   </head>
-  <body class="min-h-screen flex flex-col">
+  <body class="flex flex-col min-h-screen">
     <header class="flex justify-end p-spacing6">
       <nav class="flex">
-        <ul class="flex space-x-15 items-center">
+        <ul class="flex items-center space-x-15">
           <li>
             <a
               href="https://mail.google.com/mail/&ogbl"
@@ -32,35 +32,37 @@
             >
           </li>
           <li class="flex items-center">
-            <div class="p-1 flex">
+            <div class="flex p-1">
               <a
                 href="/#"
-                class="p-2 hover:rounded-full hover:bg-gray-300 w-10 h-10 flex-1"
+                class="flex-1 w-10 h-10 p-2 hover:rounded-full hover:bg-gray-300"
                 ><img
                   src="./svgs/menu-icon.svg"
                   alt="menu-icon"
-                  class="w-6 h-6 w"
+                  class="w-6 h-6"
               /></a>
             </div>
-            <a
-              class="m-2 py-9 px-23 border border-transparent text-gray-800 bg-brandblue-light hover:bg-brandblue-dark rounded text-sm"
-              href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"
-              >Sign in</a
-            >
+            <a href="/#" class="p-1 rounded-full hover:bg-gray-300">
+              <img
+                alt="user icon"
+                class="w-6 h-6 p-4 bg-green-600 rounded-full"
+                src="https://lh3.googleusercontent.com/ogw/AOh-ky2yQRUjsCUAvLNrKYDRoO859IsAndSF4a80H7iu=s32-c-mo"
+              />
+            </a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="flex items-center flex-col flex-1">
+    <main class="flex flex-col items-center flex-1 px-2 sm:px-0">
       <img
         src="./images/googlelogo_color_272x92dp.png"
         alt="google icon"
         class="object-cover object-center mt-16 lg:mt-10"
       />
-      <div class="p-5">
-        <form class="pt-s pt-spacing6 space-y-5 flex items-center flex-col">
+      <div class="p-5 sm:w-11/12 md:w-1/2">
+        <form class="flex flex-col items-center space-y-5 pt-s pt-spacing6">
           <div
-            class="border-gray-300 border rounded-4xl flex items-center space-x-6 py-4 px-6 bg-white"
+            class="flex items-center w-full px-4 py-2 space-x-6 bg-white border border-gray-300 rounded-4xl hover:shadow-search hover:border-gray-400"
           >
             <img
               src="./svgs/search-icon.svg"
@@ -86,20 +88,20 @@
           </div>
           <div class="flex items-center space-x-5">
             <button
-              class="bg-gray-200 p-4 rounded text-sm text-gray-900 border-gray-200 hover:border-gray-300 border"
+              class="px-4 py-2 text-sm text-gray-900 bg-gray-100 border border-gray-200 rounded hover:border-gray-300"
             >
               Google Search
             </button>
             <button
-              class="bg-gray-200 p-4 rounded text-sm text-gray-900 border-gray-200 hover:border-gray-300 border"
+              class="px-4 py-2 text-sm text-gray-900 bg-gray-100 border border-gray-200 rounded hover:border-gray-300"
             >
               Im'm feeling lucky
             </button>
           </div>
         </form>
       </div>
-      <div class="flex space-x-2 flex-1">
-        <p class="text-13 text-gray-900">Google offered in:</p>
+      <div class="flex flex-1 space-x-2">
+        <p class="text-gray-900 text-13">Google offered in:</p>
         <a
           href="https://www.google.com/setprefs?sig=0_fozSUiMGwKB3QAPR0kGMAyMlVGg%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwiSkI2wiOf6AhWD0oUKHdLqAvAQ2ZgBCBA"
           class="text-brandblue hover:underline text-13"
@@ -117,49 +119,50 @@
         >
       </div>
     </main>
-
-    <footer class="bg-gray-200">
+    <footer class="mt-10 bg-gray-200 sm:mt-0">
       <div
-        class="px px-8 py-4 border-b border-b-gray-300 text-base text-gray-500"
+        class="px-8 py-4 text-base text-gray-500 border-b px border-b-gray-300"
       >
         Rwanda
       </div>
-      <div class="flex flex-wrap justify-evenly lg:justify-between px-5 py-4">
-        <ul class="flex flex-wrap justify-evenly">
+      <div
+        class="flex flex-wrap gap-4 px-5 py-4 justify-evenly lg:justify-between"
+      >
+        <ul class="flex flex-wrap justify-evenly gap-y-4">
           <li>
-            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
               >Aabout</a
             >
           </li>
           <li>
-            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
               >Advertising</a
             >
           </li>
           <li>
-            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
               >Business</a
             >
           </li>
           <li>
-            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
               >How search works</a
             >
           </li>
         </ul>
         <ul class="flex flex-wrap justify-evenly">
           <li>
-            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
               >Privacy</a
             >
           </li>
           <li>
-            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
               >Terms</a
             >
           </li>
           <li>
-            <a href="" class="text-gray-500 hover:underline text-sm p-4"
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
               >Settings</a
             >
           </li>

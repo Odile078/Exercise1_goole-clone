@@ -32,6 +32,9 @@ module.exports = {
       },
       borderRadius:{
         "4xl":"2.5rem"
+      },
+      boxShadow:{
+        search:"0 1px 6px rgb(32 33 36 / 28%)"
       }
       
     },
