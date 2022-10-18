@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body class="flex flex-col min-h-screen font-arialSans">
+    <header class="md:flex md:justify-end p-spacing6">
+      <nav class="flex justify-between md:justify-start">
+        <ul class="flex items-center gap-4 md:hidden">
+          <li class="">
+            <a href="/#" class=""
+              ><img src="./svgs/menu-icon1.svg" alt="menu-icon" class="w-6 h-6"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://mail.google.com/mail/&ogbl"
+              class="py-2 font-semibold text-gray-500 hover:border-b hover:border-b-brandblue-activelink hover:text-brandblue-activelink text-opacity-87"
+              >All</a
+            >
+          </li>
+          <li>
+            <a
+              href="/https://www.google.rw/imghp?hl=en&ogbl"
+              class="py-2 font-semibold text-gray-500 hover:border-b hover:border-b-brandblue-activelink hover:text-brandblue-activelink text-opacity-87"
+              >Images</a
+            >
+          </li>
+        </ul>
+        <ul class="flex items-center space-x-15">
+          <li class="hidden md:block">
+            <a
+              href="https://mail.google.com/mail/&ogbl"
+              class="text-gray-900 hover:underline text-opacity-87"
+              >Gmail</a
+            >
+          </li>
+          <li class="hidden md:block">
+            <a
+              href="/https://www.google.rw/imghp?hl=en&ogbl"
+              class="text-gray-900 hover:underline text-opacity-87"
+              >Images</a
+            >
+          </li>
+          <li class="flex items-center">
+            <div class="flex p-1">
+              <a
+                href="/#"
+                class="flex-1 w-10 h-10 p-2 hover:rounded-full hover:bg-gray-300"
+                ><img
+                  src="./svgs/menu-icon.svg"
+                  alt="menu-icon"
+                  class="w-6 h-6"
+              /></a>
+            </div>
+            <a href="/#" class="p-1 rounded-full hover:bg-gray-300">
+              <img
+                alt="user icon"
+                class="w-6 h-6 p-4 bg-green-600 rounded-full"
+                src="https://lh3.googleusercontent.com/ogw/AOh-ky2yQRUjsCUAvLNrKYDRoO859IsAndSF4a80H7iu=s32-c-mo"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="flex flex-col items-center flex-1 px-2 mx-auto sm:px-0">
+      <img
+        src="./images/googlelogo_color_272x92dp.png"
+        alt="google icon"
+        class="object-cover object-center mt-16 lg:mt-10"
+      />
+      <div class="sm:p-7 sm:w-11/12 md:w-1/2 md:min-w-lg">
+        <form class="flex flex-col items-center space-y-7 pt-s pt-spacing6">
+          <div
+            class="flex items-center w-full px-4 py-2 space-x-6 bg-white border border-gray-300 rounded-4xl hover:shadow-search hover:border-gray-400"
+          >
+            <img
+              src="./svgs/search-icon.svg"
+              alt="search-icon"
+              class="w-6 h-6"
+            />
+
+            <label for="search-text" class="sr-only"></label>
+            <input
+              type="text"
+              id="search-text"
+              class="flex-1 block w-full px-3 py-1.5 text-sm font-normal text-black text-opacity-87 bg-transparent bg-clip-padding border-solid border-0 transition ease-in-out m-0 focus:bg-transparent focus:border-0 focus:outline-none"
+            />
+            <img
+              src="./svgs/micro-icon.svg"
+              alt="micro icon"
+              class="w-6 h-6 hover:cursor-pointer"
+            /><img
+              src="./svgs/google-camera.svg"
+              alt="google camera icon"
+              class="w-6 h-6 hover:cursor-pointer"
+            />
+          </div>
+          <div class="flex items-center space-x-5">
+            <button
+              class="px-2 py-2 text-sm text-gray-900 border rounded border-gray-50 bg-gray-50 sm:px-4 hover:border-gray-300"
+            >
+              Google Search
+            </button>
+            <button
+              class="px-2 py-2 text-sm text-gray-900 border rounded border-gray-50 bg-gray-50 sm:px-4 hover:border-gray-300"
+            >
+              I'm feeling lucky
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="flex flex-1 mb-10 space-x-2">
+        <p class="text-gray-900 text-13">Google offered in:</p>
+        <a
+          href="https://www.google.com/setprefs?sig=0_fozSUiMGwKB3QAPR0kGMAyMlVGg%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwiSkI2wiOf6AhWD0oUKHdLqAvAQ2ZgBCBA"
+          class="text-brandblue hover:underline text-13"
+          >Francais</a
+        >
+        <a
+          href="https://www.google.com/setprefs?sig=0_fozSUiMGwKB3QAPR0kGMAyMlVGg%3D&hl=sw&source=homepage&sa=X&ved=0ahUKEwiSkI2wiOf6AhWD0oUKHdLqAvAQ2ZgBCBE"
+          class="text-brandblue hover:underline text-13"
+          >Kiswahili</a
+        >
+        <a
+          href="https://www.google.com/setprefs?sig=0_fozSUiMGwKB3QAPR0kGMAyMlVGg%3D&hl=rw&source=homepage&sa=X&ved=0ahUKEwiSkI2wiOf6AhWD0oUKHdLqAvAQ2ZgBCBI"
+          class="text-brandblue hover:underline text-13"
+          >English</a
+        >
+      </div>
+    </main>
+    <footer class="bg-gray-200">
+      <div
+        class="px-8 py-4 text-base text-gray-500 border-b px border-b-gray-300"
+      >
+        Rwanda
+      </div>
+      <div
+        class="flex flex-wrap gap-4 px-5 py-4 justify-evenly lg:justify-between"
+      >
+        <ul class="flex flex-wrap justify-evenly gap-y-4">
+          <li>
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
+              >Advertising</a
+            >
+          </li>
+          <li>
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
+              >Business</a
+            >
+          </li>
+          <li>
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
+              >How search works</a
+            >
+          </li>
+        </ul>
+        <ul class="flex flex-wrap justify-evenly">
+          <li>
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
+              >Privacy</a
+            >
+          </li>
+          <li>
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
+              >Terms</a
+            >
+          </li>
+          <li>
+            <a href="" class="p-4 text-sm text-gray-500 hover:underline"
+              >Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
