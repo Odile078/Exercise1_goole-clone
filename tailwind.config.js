@@ -28,7 +28,8 @@ module.exports = {
         brandblue:{
           light:"#1a73e8",
           DEFAULT:"#1a0dab",
-          dark:"#1b66c9"
+          dark:"#1b66c9",
+          activelink:"#4285f4"
         }
       },
       opacity:{
