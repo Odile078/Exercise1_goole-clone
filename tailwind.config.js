@@ -20,6 +20,10 @@ module.exports = {
       minHeight:{
         screen80vh:'80vh'
       },
+      minWidth:{
+        lg:"32rem"
+      }
+      ,
       colors:{
         brandblue:{
           light:"#1a73e8",
